@@ -1,0 +1,30 @@
+{
+  "name": "ai21",
+  "owner": {
+    "name": "Ai21"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/ai21-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "ai21-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ai21-chat.git"
+      }
+    },
+    {
+      "name": "ai21-conversational-rag",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ai21-conversational-rag.git"
+      }
+    },
+    {
+      "name": "ai21-library",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ai21-library.git"
+      }
+    }
+  ]
+}
